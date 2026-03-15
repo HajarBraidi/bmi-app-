@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootHub"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:title="Lab 5 — Navigation Hub"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button android:id="@+id/btnOpenBmi"
+        android:layout_width="0dp" android:layout_height="wrap_content"
+        android:text="Open BMI Activity"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <Button android:id="@+id/btnOpenConverter"
+        android:layout_width="0dp" android:layout_height="wrap_content"
+        android:text="Open Currency Converter"
+        app:layout_constraintTop_toBottomOf="@id/btnOpenBmi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button android:id="@+id/btnOpenAbout"
+        android:layout_width="0dp" android:layout_height="wrap_content"
+        android:text="About"
+        app:layout_constraintTop_toBottomOf="@id/btnOpenConverter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button android:id="@+id/btnQuit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        app:layout_constraintTop_toBottomOf="@id/btnOpenRecords"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button android:id="@+id/btnOpenVital"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Vital Signs"
+        app:layout_constraintTop_toBottomOf="@id/btnOpenAbout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button android:id="@+id/btnOpenRecords"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Records"
+        app:layout_constraintTop_toBottomOf="@id/btnOpenVital"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
