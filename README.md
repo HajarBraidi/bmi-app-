@@ -8,14 +8,13 @@
 ## Structure du projet
 
 | Activité | Description |
-|---|---|---|
+|---|---|
 | `HubActivity` | Écran d'accueil — navigation vers toutes les activités |
 | `BmiActivity` | Calcul de l'IMC (poids / taille) |
 | `CurrencyConverterActivity` | Convertisseur de devises (MAD, EUR, USD) |
 | `AboutActivity` | Page de présentation personnelle |
-| `VitalActivity`| Saisie et sauvegarde des signes vitaux |
+| `VitalActivity` | Saisie et sauvegarde des signes vitaux |
 | `RecordsActivity` | Affichage des enregistrements en tableau |
-
 ---
 
 ##  Fonctionnalités
